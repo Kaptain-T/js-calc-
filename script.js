@@ -6,63 +6,199 @@ const one = document.querySelector('.one');
 // FOR NUMBERS CLICKED
 one.addEventListener("click", function(){
     let first = '1'
-    number += first
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += first
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += first
+        input.innerHTML = number
+    }
 })
 const two = document.querySelector('.two');
 two.addEventListener("click", function(){
     let second = '2'
-    number += second
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += second
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += second
+        input.innerHTML = number
+    }
 })
 const three = document.querySelector('.three');
 three.addEventListener("click", function(){
     let third = '3'
-    number += third
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += third
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += third
+        input.innerHTML = number
+    }
 })
 const four = document.querySelector('.four');
 four.addEventListener("click", function(){
     let fourth = '4'
-    number += fourth
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += fourth
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += fourth
+        input.innerHTML = number
+    }
 })
 const five = document.querySelector('.five');
 five.addEventListener("click", function(){
     let fifth ='5'
-    number += fifth
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += fifth
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += fifth
+        input.innerHTML = number
+    }
 })
+
 const six = document.querySelector('.six');
 six.addEventListener("click", function(){
     let sixth = '6'
-    number += sixth
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += sixth
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += sixth
+        input.innerHTML = number
+    }
 })
+
 const seven = document.querySelector('.seven');
 seven.addEventListener("click", function(){
     let seventh = '7'
-    number += seventh
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += seventh
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += seventh
+        input.innerHTML = number
+    }
 })
+
 const eight = document.querySelector('.eight');
 eight.addEventListener("click", function(){
     let eighth = '8'
-    number += eighth
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += eighth
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += eighth
+        input.innerHTML = number
+    }
 })
+
 const nine = document.querySelector('.nine');
 nine.addEventListener("click", function(){
     let ninth  = '9'
-    number += ninth
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += ninth
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += ninth
+        input.innerHTML = number
+    }
 })
+
 const zero = document.querySelector('.zero');
 zero.addEventListener("click", function(){
     let zeroth = '0'
-    number += zeroth
-    input.innerHTML = number
+    if (number.length > 8)  {
+        if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
+            if (number.length > 20) {
+                input.innerHTML = number
+            } else {
+                number += zeroth
+                input.innerHTML = number
+            }
+        } else {
+            input.innerHTML = number
+        }
+    } else {
+        number += zeroth
+        input.innerHTML = number
+    }
 })
+
 const dot = document.querySelector('.dot');
 dot.addEventListener("click", function(){
     let dott = '.'
@@ -77,7 +213,7 @@ dot.addEventListener("click", function(){
 // FOR OPERATIONS CLICKED
 const times = document.querySelector('.times');
 times.addEventListener("click", function(){
-    let multiply = '*'
+    let multiply = ' * '
     if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
         input.innerHTML = number
     } else {
@@ -87,7 +223,7 @@ times.addEventListener("click", function(){
 })
 const divide = document.querySelector('.divide');
 divide.addEventListener("click", function(){
-    let division = '/'
+    let division = ' / '
     if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
         input.innerHTML = number
     } else {
@@ -97,7 +233,7 @@ divide.addEventListener("click", function(){
 })
 const minus = document.querySelector('.minus');
 minus.addEventListener("click", function(){
-    let substract = '-'
+    let substract = ' - '
     if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
         input.innerHTML = number
     } else {
@@ -107,17 +243,18 @@ minus.addEventListener("click", function(){
 })
 const plus = document.querySelector('.plus');
 plus.addEventListener("click", function(){
-    let add = '+'
+    let add = ' + '
     if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
         input.innerHTML = number
     } else {
         number += add
         input.innerHTML = number
+        input.innerHTML[-1]
     }
 })
 const module = document.querySelector('.modulus');
 module.addEventListener("click", function(){
-    let modulus = '%'
+    let modulus = ' % '
     if (number.includes("%") == true || number.includes("+") == true || number.includes("-") == true || number.includes("*") == true || number.includes("/") == true) {
         input.innerHTML = number
     } else {
