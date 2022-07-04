@@ -15,7 +15,7 @@ body {
 }
 #calc-container {
   background-color: #22252d;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
   display: flex;
   flex-direction: column;
   min-width: 220px;
@@ -41,7 +41,6 @@ body {
 #inputbox {
   font-size: 20px;
   padding-top: 160px;
-  height: 20px;
   margin-bottom: 15px;
 }
 .keys-wrapper {
@@ -54,6 +53,7 @@ body {
 ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-row: auto;
 }
 .AC {
   grid-row: 1/1;
@@ -65,9 +65,9 @@ li {
   text-decoration: none;
   text-align: center;
   margin: 3px;
-  padding: 10px;
+  padding: 0.7rem;
   background-color: #22252d;
-  border-radius: 20px;
+  border-radius: 2000px;
   font-size: 1.3rem;
   cursor: pointer;
 }
@@ -89,11 +89,42 @@ li {
 
   .display-box{
     height: 50%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   .bottom{
     height: 10%;
   }
+  .resultbox{
+    padding-bottom: 15px;
+  }
   .keys-wrapper{
-    height: 50%;
+    padding-top: 15px;
+    height: 40%;
+  }
+
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-height:800px) {
+  .keys-wrapper{
+    padding-top: 25px;
+  }
+  
+  li{
+    padding: 0.7rem;
+  }
+}
+@media screen and (min-height:880px) {
+  .keys-wrapper{
+    padding-top: 25px;
+  }
+  
+  li{
+    padding: 0.9rem;
   }
 }
