@@ -86,8 +86,14 @@ li {
     width: 100vw;
     height: 100vh;
   }
-  .display-box{
-    flex: 30%;
-  }
 
+  .display-box{
+    height: 50%;
+  }
+  .bottom{
+    height: 10%;
+  }
+  .keys-wrapper{
+    height: 50%;
+  }
 }
